@@ -36,6 +36,5 @@ public class RotateImage {
             }
             i++;
         }
-//        return matrix;
     }
 }
