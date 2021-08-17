@@ -2,6 +2,7 @@ package com.codingtasks;
 
 import java.util.Arrays;
 
+import static com.codingtasks.FourSum.fourSum;
 import static com.codingtasks.PascalTriangle.generate;
 import static com.codingtasks.RotateImage.rotate;
 import static com.codingtasks.ThreeSum.threeSum;
@@ -15,6 +16,8 @@ public class Main {
         rotate(matrix);
         for (int[] row : matrix)
             System.out.println(Arrays.toString(row));
+
+        System.out.println(fourSum(new int[]{1, 0, -1, 0, -2, 2}, 0));
     }
 }
 
